@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mobile.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="imagens/logo.png" alt="logo-alura">
+         </header>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite seu texto aqui" cols="30" rows="10"></textarea>
+       
+        </div>
+
+
+         <div id="output">
+            <img src="imagens/Boneco - Copia.jpg" alt="boneco-alura" height="330px" width="400px">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+         </div>
+        </div>
+
+        
+         <div class="buttons">
+            <div class="descrição">
+                <img class="descrição-imagen" src="imagens/!.png" alt="interrogação">
+                <p>Apenas letras minúsculas e sem acento.</p>
+                
+            </div>
+           
+             <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+             </div>
+            
+         </div>
+     </main>
+
+ 
+
+     <script src="interacao/script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

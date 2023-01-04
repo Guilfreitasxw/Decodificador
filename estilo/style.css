@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&family=Montserrat:wght@100&family=Rubik:wght@300;400;500&display=swap');
+
+:root{
+    --corprincipal: #ffc7f9;
+    --corsegundaria:white;
+    --cortitulo: #0A3871;
+}
+
+body{
+    background: var(--corsegundaria)s;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1{
+    color: var(--cortitulo);
+}
+
+.cabecalho img{
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 420px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 34px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    
+}
+
+.descrição {
+    display: inline;
+}
+
+::placeholder {
+    color: var(--cortitulo);
+    font-size: 34px;
+}
+
+.descrição {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-left: 4%;
+
+    
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    margin-right: 10%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+.imagem-saida {
+    width: 400px;
+    height: 300px;
+    margin-top: 2%;
+}
+
+.container-bnt button{
+    border: 2px solid var(--cortitulo);
+    border-radius: 24px;
+    text-decoration: none;
+    width: 500px;
+    height: 67px;
+    margin-left: 4%;
+    cursor: pointer;
+    padding: 24px;
+    font-size: 16px;
+    gap: 24px;
+
+}
+
+.btn-criptografar {
+    background-color: #0A3871;
+    color: #ffff;
+}
+
+.btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background:var(--corprincipal) ;
+    color: var(--cortitulo);
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cortitulo);
+}
+
+.icons ion-icon:hover{
+    color: var(--corsegundaria);
+}
+
+
+
+
+
+
+
+
+
+
+
